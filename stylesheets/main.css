@@ -3,21 +3,23 @@
   box-sizing: border-box;
 }
 
-.accordion__section {
+#accordion {
   width: 400px;
-
+  margin: 30px 30px;
 }
 
-.accordion__button {
+.accordion__toggle {
+  align
   background-color: #eee;
-  width: 100%;
-  height: 30px;
   border: 1px solid black;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
+  height: 30px;
+  margin: 0;
+  width: 100%;
 }
 
-.accordion__button--active {
+.accordion__toggle--active {
  background-color: black;
 
 }
